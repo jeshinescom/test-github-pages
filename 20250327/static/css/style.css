@@ -1,0 +1,1102 @@
+html,
+body {
+height: 100%;
+}
+.layui-layer-hui .layui-layer-content {
+padding: 24px 32px !important;
+}
+.layui-layer-dialog .layui-layer-content {
+font-size: 36px !important;
+line-height: 40px !important;
+}
+* {
+margin: 0;
+padding: 0;
+font-family: "Yu Gothic";
+-webkit-text-size-adjust: none;
+-webkit-appearance: none;
+-webkit-tap-highlight-color: transparent;
+}
+.center {
+text-align: center;
+}
+.hidden {
+display: none;
+}
+.tan_title {
+text-align: center;
+color: #ef5456;
+padding: 20px;
+}
+.barbox div.barline div.charts {
+background: #5578d0;
+border-radius: 100px;
+overflow: hidden;
+height: 22px;
+}
+.barbox div.barline {
+width: 353px;
+height: 22px;
+background-size: 100% 100%;
+}
+.tan_content {
+border: solid #557ed6 8px;
+}
+.barbox {
+margin-top: 0;
+}
+.Land_li_input input {
+border-radius: 24px;
+text-align: center;
+width: 560px;
+height: 91px;
+font-size: 40px;
+}
+.discuss {
+display: inline-block;
+padding: 24px;
+font-size: 30px;
+padding-bottom: 56px;
+}
+.tan_400 {
+width: 650px;
+margin-left: -332px;
+min-height: 260px;
+}
+.main {
+    width: 750px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+    background-color: #000207;
+    min-height: 1155px;
+    padding-bottom: 160px;
+}
+.content {
+position: absolute;
+top: 0;
+z-index: 2;
+width: 100%;
+}
+.head {
+width: 750px;
+height: 908px;
+margin: 0 auto;
+}
+.onlineBlock {
+position: relative;
+top: 397px;
+left: 0;
+color: #fff;
+font-size: 24px;
+z-index: 3;
+}
+.onlineBlock_yellow {
+color: #f9eb0f;
+}
+.zd_btn {
+    position: relative;
+    width: 351px;
+    height: 133px;
+    line-height: 94px;
+    font-size: 32px;
+    cursor: pointer;
+    color: #fced03;
+	background: url(../image/anniu.webp) no-repeat;
+	margin: 30px auto;
+	-webkit-animation: pulse2 1s linear infinite;
+	-moz-animation: pulse2 1s linear infinite;
+	animation: pulse2 1s linear infinite;
+}
+.zd_btn i {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+}
+
+.piaces {
+width: 690px;
+height: 528px;
+margin: 60px auto 0;
+padding-top: 137px;
+background: url(https://y1.exstar.org/builderpage/pages/h/161/static/images/piaces_bg.jpg) no-repeat;
+}
+.piaces_num {
+display: block;
+font-size: 25px;
+color: #fff;
+text-align: center;
+}
+.rise_list {
+width: 630px;
+height: 417px;
+margin: 16px auto 0;
+list-style: none;
+}
+.rise_list li {
+float: left;
+width: 299px;
+height: 197px;
+margin-bottom: 19px;
+border: 1px solid #035fbf;
+}
+.rise_list li div {
+width: 100%;
+padding: 22px 0;
+line-height: 30px;
+background: #035fbf;
+color: #fff;
+font-size: 28px;
+text-align: center;
+}
+.rise_list li p {
+width: 189px;
+height: 59px;
+line-height: 59px;
+background: #f9eb0f;
+color: #081853;
+font-size: 22px;
+font-weight: 700;
+margin: 19px auto 0;
+text-align: center;
+cursor: pointer;
+border-radius: 23px;
+}
+.rise_list .li_w {
+margin-right: 27px;
+}
+.banker {
+width: 690px;
+height: 1173px;
+padding-top: 125px;
+margin: 29px auto 0;
+}
+.banker_btn {
+color: #12c8f0;
+font-size: 33px;
+margin: 300px auto 0;
+}
+.stockimg_box {
+width: 537px;
+height: 307px;
+margin: 0 auto;
+}
+.stockimg {
+display: block;
+width: 537px;
+height: 307px;
+}
+
+.risk_title {
+margin: 57px auto 82px;
+color: #fff;
+font-size: 20px;
+line-height: 33px;
+}
+.KeepRecord img {
+width: 20px;
+height: 20px;
+}
+.KeepRecord a {
+color: #fff;
+font-size: 20px;
+}
+.company_info {
+color: #fff;
+}
+.stockList {
+width: 100%;
+height: 352px;
+margin: 20px auto 0;
+overflow: hidden;
+border-top: 1px solid #2e3b6d;
+}
+.stocktable {
+width: 98%;
+height: 100%;
+margin: 0 auto;
+}
+.stocktable td {
+font-size: 26px;
+color: #fff;
+width: 126px;
+height: 87px;
+text-align: center;
+border-bottom: 1px solid #2e3b6d;
+}
+
+.tableCon2 {
+width: 100%;
+height: 508px;
+color: #000;
+margin: 12px auto 0;
+font-size: 28px;
+}
+.tableCon2 table {
+width: 100%;
+text-align: center;
+}
+.tableCon_head th {
+width: 144px;
+background-color: #035fbf;
+height: 70px;
+color: #fff;
+border-right: 1px solid #fff;
+}
+.tableCon_head th:last-child {
+border-right: none;
+}
+.tableCon2 .tableList2 {
+height: 439px;
+}
+.tableCon2 .tableList2 td {
+width: 144px;
+height: 70px;
+color: #fff;
+border-bottom: 1px solid #2e3b6d;
+}
+.bannerBox {
+width: 651px;
+height: 71px;
+background: #fff;
+margin: 24px auto;
+}
+.bannerBox .code {
+wibtndth: 450px;
+height: 71px;
+line-height: 71px;
+background-color: #fff;
+border: none;
+outline: 0;
+font-size: 28px;
+padding-left: 27px;
+float: left;
+}
+
+.zg_dialog .result {
+color: #fff;
+margin-top: 32px;
+font-size: 32px;
+}
+.zg_dialog .result .cName {
+color: #f9eb0f;
+font-size: 39px;
+font-weight: 700;
+margin-right: 5px;
+}
+.zg_dialog .prompt {
+width: 494px;
+height: 80px;
+line-height: 80px;
+margin: 0 auto 0;
+font-size: 26px;
+color: #fff;
+text-align: center;
+}
+.prompt_num {
+color: #f9eb0f;
+}
+.zg_dialog .inputBlock {
+padding-top: 8px;
+padding-bottom: 12px;
+}
+.zg_input,
+.ng_input,
+.package_input {
+display: block;
+width: 528px;
+height: 77px;
+line-height: 77px;
+border: 1px solid #b5b5b5;
+outline: 0;
+margin: 0 auto 0;
+font-size: 32px;
+border-radius: 12px;
+}
+
+.promise {
+color: #fff;
+font-size: 21px;
+margin-top: 30px;
+}
+.dialog2_txt,
+.dialog3_txt {
+color: #f9eb0f;
+font-size: 39px;
+text-align: center;
+margin-top: 38px;
+font-weight: 700;
+}
+.ng_dialog .prompt {
+width: 520px;
+height: 66px;
+font-size: 25px;
+color: #fff;
+text-align: center;
+margin: 34px auto 0;
+}
+.dialog_input {
+display: block;
+outline: 0;
+border: none;
+font-size: 31px;
+background: #fff;
+border-radius: 26px;
+line-height: 66px;
+}
+.dialog3_num {
+color: #fff;
+margin-top: 5px;
+font-size: 30px;
+}
+.animated_02 {
+	animation: pulse2 1.2s linear infinite;
+	-webkit-animation: pulse2 1.2s linear infinite;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	z-index: 100;
+}
+@-webkit-keyframes pulse2 {
+	0% {
+	  -webkit-transform: scale(0.9);
+	}
+	50% {
+	  -webkit-transform: scale(1);
+	}
+	100% {
+	  -webkit-transform: scale(0.9);
+	}
+}
+@keyframes pulse2 {
+	0% {
+	  -webkit-transform: scale(0.9);
+	}
+	50% {
+	  -webkit-transform: scale(1);
+	}
+	100% {
+	  -webkit-transform: scale(0.9);
+	}
+}
+.diagnosis {
+width: 750px;
+height: 464px;
+background: url(https://y1.exstar.org/builderpage/pages/h/161/static/images/p1.jpg?1) no-repeat;
+position: absolute;
+left: 0;
+z-index: 2;
+}
+.gupiao {
+height: 168px;
+padding-top: 15px;
+}
+.tablecontent {
+margin-left: 16px;
+}
+.t1,
+.t2,
+.t3 {
+float: left;
+text-align: center;
+}
+.t1 {
+width: 360px;
+border-right: 1px solid #687997;
+}
+.t2 {
+width: 360px;
+}
+.xianjia {
+font-size: 54px;
+}
+.zhangdie,
+.zhangfu {
+font-size: 31px;
+margin-left: 11px;
+margin-right: 11px;
+}
+.time,
+.date {
+font-size: 28px;
+text-align: center;
+margin-top: 5px;
+line-height: 40px;
+color: #fffefe;
+}
+.dongtai {
+border-top: 1px solid #687997;
+width: 90%;
+margin-left: 5%;
+padding-top: 12px;
+}
+.gName {
+font-size: 54px;
+color: #fff;
+margin-bottom: 15px;
+font-weight: 700;
+}
+.gCode {
+font-size: 40px;
+color: #fff;
+margin-bottom: 10px;
+}
+.zhishu {
+font-size: 54px;
+font-weight: 700;
+color: red;
+}
+.zhishu img {
+width: 28px;
+height: 45px;
+}
+.diagnosis_bg {
+width: 750px;
+height: 875px;
+position: relative;
+z-index: 3;
+}
+.diagnosis_name {
+position: relative;
+z-index: 3;
+}
+.diagnosis_bg h2 {
+color: #fff;
+font-size: 42px;
+text-align: center;
+}
+.diagnosis_bg .h_title {
+width: 575px;
+height: 53px;
+line-height: 53px;
+font-size: 40px;
+color: #fffc00;
+margin: 16px auto 0;
+text-align: center;
+}
+.diagnosis_box {
+    width: 350px;
+    height: 350px;
+    margin: 157px 182px 0px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.scanning {
+    width: 329px;
+    height: 333px;
+    position: absolute;
+    top: 708px;
+    left: 215px;
+    z-index: 10;
+    animation: rotatea 7s infinite linear;
+}
+.p1{
+    width: 100%;
+    position: absolute;
+}
+.p2{
+    z-index: 5;
+    width: 100%;
+}
+.p3{
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    top: 215px;
+    left: 242px;
+    z-index: 2;
+}
+
+@keyframes rotatea {
+	from {
+		transform: rotate(0deg) translateX(0px) translateY(0px);
+		/* 起始状态，在右上角 */
+	}
+
+	to {
+		transform: rotate(360deg) translateX(0px) translateY(0px);
+		/* 结束状态，旋转360度 */
+	}
+}
+
+
+.rose_btn {
+    position: relative;
+    width: 556px;
+    height: 92px;
+    line-height: 94px;
+    font-size: 32px;
+    cursor: pointer;
+    color: #fced03;
+    background: url(../image/anniu.webp) no-repeat;
+	margin: 30px auto;
+	-webkit-animation: pulse2 1s linear infinite;
+	-moz-animation: pulse2 1s linear infinite;
+	animation: pulse2 1s linear infinite;
+}
+
+
+@-webkit-keyframes pulse3 {
+	0% {
+	  -webkit-transform: scale(0.9);
+	}
+	50% {
+	  -webkit-transform: scale(1);
+	}
+	100% {
+	  -webkit-transform: scale(0.9);
+	}
+}
+@keyframes pulse3 {
+	0% {
+	  -webkit-transform: scale(0.9);
+	}
+	50% {
+	  -webkit-transform: scale(1);
+	}
+	100% {
+	  -webkit-transform: scale(0.9);
+	}
+}
+
+
+.features {
+width: 690px;
+height: 247px;
+margin: 29px auto 0;
+background: url(https://y1.exstar.org/builderpage/pages/h/161/static/images/features.jpg?12) no-repeat;
+}
+.trend_list {
+width: 568px;
+height: 204px;
+margin: 140px auto 0;
+list-style: none;
+}
+.trend_list li {
+width: 152px;
+height: 204px;
+float: left;
+cursor: pointer;
+}
+.trend_li2 {
+margin: 0 54px;
+}
+.cycle_name_p1,
+.rose_cycle .sharesList .tdFrist {
+width: 274px;
+border-right: 1px solid #e7e6e6;
+}
+.cycle_name_p2,
+.rose_cycle .sharesList .tdLast {
+width: 302px;
+border-right: 1px solid #e7e6e6;
+}
+.cycle_name_p3 {
+width: 142px;
+}
+.rose_cycle {
+width: 750px;
+}
+.rose_cycle .tableCon {
+width: 720px;
+height: 338px;
+margin: 0 auto;
+overflow: hidden;
+background-color: #fddbaa;
+}
+.rose_cycle .sharesList {
+width: 720px;
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
+}
+.rose_cycle .sharesList td {
+text-align: center;
+color: #444;
+height: 65px;
+line-height: 65px;
+font-size: 26px;
+}
+.rose_cycle .sharesList .red {
+color: #f33d3f;
+}
+.rose_cycle .sharesList .green {
+color: #199c07;
+}
+.plContent {
+    width: 690px;
+    padding-top: 140px;
+    margin: 30px auto 0;
+    position: absolute;
+    top: 2050px;
+    left: 35px;
+    z-index: 16;
+}
+.zd_btn2 {
+	color: #12c8f0;
+	margin: 25px auto;
+}
+
+.zd_btn3 {
+    position: relative;
+    width: 560px;
+    height: 103px;
+	left: 8px;
+    line-height: 94px;
+    font-size: 32px;
+    cursor: pointer;
+    color: #fced03;
+	background: url(../image/anniu.webp) no-repeat;
+	margin: 30px auto;
+	-webkit-animation: pulse2 1s linear infinite;
+	-moz-animation: pulse2 1s linear infinite;
+	animation: pulse2 1s linear infinite;
+}
+.zd_btn3 i {
+display: inline-block;
+width: 50px;
+height: 50px;
+vertical-align: middle;
+}
+.input_text {
+	display: block;
+	width: 538px;
+	height: 94px;
+	line-height: 94px;
+	text-align: center;
+	background: #434343;
+	color: white;
+	outline: 0;
+	font-size: 33px;
+	margin: 46px auto 0;
+	border: 1px solid #ababab;
+	border-radius: 10px;
+}
+.plContent_input_text {
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    top: 616px;
+}
+.alone_prompt {
+color: #fff;
+font-size: 24px;
+text-align: center;
+margin-bottom: 30px;
+}
+.guidance {
+width: 689px;
+height: 161px;
+padding-top: 325px;
+margin: 29px auto 0;
+background: url(https://y1.exstar.org/builderpage/pages/h/161/static/images/guidance_bg.jpg?2) no-repeat;
+}
+.diagnosis_red {
+color: #ff3131;
+}
+.diagnosis_green {
+color: #12fd06;
+}
+.zd_input {
+	width: 538px;
+	height: 96px;
+	line-height: 96px;
+	font-size: 32px;
+	text-align: center;
+	background-color: #434343;
+	color: white;
+	z-index: 3;
+	border: 1px solid #90e5f8;
+}
+.head_ipt_box {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    top: 900px;
+}
+.rose_input {
+	display: block;
+	width: 538px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 32px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #434343;
+	color: white;
+	border: 1px solid #10c6ee;
+	border-radius: 10px;
+}
+.rose_cycle_input {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    top: 3380px;
+    z-index: 15;
+}
+
+.personnel_info {
+width: 557px;
+list-style: none;
+text-align: center;
+-webkit-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+}
+.personnel_info li {
+width: 557px;
+height: 42px;
+line-height: 42px;
+font-size: 20px;
+color: #666;
+}
+.personnel_info li .gules {
+color: #cb0707;
+}
+.ng_dialog {
+height: 470px;
+background-size: 100% 100%;
+}
+.package_dialog {
+height: 500px;
+background-size: 100% 100%;
+}
+.loadBox2,.loadBox3 {
+position: fixed;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+z-index: 999;
+background: rgba(0, 0, 0, 0.8);
+display: none;
+}
+.loadBox2 .load_title2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 684px;
+	height: 540px;
+	color: #6c5051;
+	margin: -260px auto auto -342px;
+	border-radius: 20px;
+	overflow: hidden;
+	z-index: 1;
+	background: url(https://y1.exstar.org/builderpage/pages/h/161/static/images/loadBox.webp) no-repeat;
+}
+.loadBox3 .load_title2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 684px;
+	height: 540px;
+	color: #6c5051;
+	margin: -260px auto auto -342px;
+	border-radius: 20px;
+	overflow: hidden;
+	z-index: 1;
+	background: url(https://y1.exstar.org/builderpage/pages/h/161/static/images/loadBox.webp) no-repeat;
+}
+.loadBox2 .loadCode,
+.loadBox2 .loadName {
+	color: #ec3c3e;
+}
+.loadBox3 .loadCode,
+.loadBox3 .loadName {
+	color: #ec3c3e;
+}
+.loadBox2_name {
+	height: 62px;
+	line-height: 62px;
+	text-align: center;
+	font-size: 60px;
+	padding: 30px 0 10px;
+	background: linear-gradient(#d3702f, #884716);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+.loadBox2_txt {
+	margin-top: 62px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 36px;
+	text-align: center;
+	color: #773c13;
+}
+.loadBox3_txt {
+    margin-top: 62px;
+    height: 74px;
+    line-height: 41px;
+    font-size: 36px;
+    text-align: center;
+    color: #773c13;
+    font-weight: bold;
+}
+.loadBox2_time {
+	width: 465px;
+	height: 112px;
+	padding: 36px 0 0 127px;
+	margin: 62px auto 0;
+	background: url(https://y1.exstar.org/builderpage/pages/h/161/static/images/loadBoxBtn.webp) no-repeat;
+}
+.loadBox2_time_txt {
+width: 425px;
+height: 73px;
+float: left;
+}
+.loadBox2_time_txt p:nth-child(1) {
+height: 36px;
+line-height: 36px;
+font-size: 32px;
+color: red;
+}
+.loadBox2_time_txt p:nth-child(2) {
+height: 30px;
+line-height: 30px;
+color: #8a4817;
+font-size: 30px;
+margin-top: 9px;
+}
+.loadBox2_time_meter {
+position: relative;
+width: 63px;
+height: 67px;
+float: left;
+margin-left: 21px;
+}
+
+@keyframes xz {
+from {
+  transform: rotate(0deg);
+}
+to {
+  transform: rotate(360deg);
+}
+}
+@-webkit-keyframes xz {
+from {
+  -webkit-transform: rotate(0deg);
+}
+to {
+  -webkit-transform: rotate(360deg);
+}
+}
+.loadBox2_time_meter p {
+width: 63px;
+height: 67px;
+line-height: 67px;
+text-align: center;
+font-size: 32px;
+color: #a3531c;
+}
+.load_discuss2_border {
+width: 550px;
+margin: 20px auto auto 46px;
+font-size: 24px;
+color: #4d515d;
+}
+.loading {
+width: 100%;
+height: 100%;
+margin: 0 auto;
+font-size: 24px;
+color: #4d515d;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.load_discuss2 {
+position: relative;
+width: 550px;
+height: 28px;
+overflow: hidden;
+}
+.loadBox2 .load_discuss2 p {
+height: 28px;
+line-height: 28px;
+letter-spacing: 1px;
+}
+.load_bod2 {
+position: absolute;
+top: 0;
+left: 0;
+width: 684px;
+height: 540px;
+overflow: hidden;
+}
+.load_title2 .ico1 {
+position: absolute;
+top: 0;
+left: -300px;
+width: 300px;
+height: 7px;
+background: -webkit-linear-gradient(#ffc158, #fe790d);
+background: linear-gradient(to right, #ffc158, #fe790d);
+border-radius: 50%;
+}
+.no_number {
+font-size: 30px;
+font-weight: 700;
+}
+.promise .cName {
+font-size: 30px;
+margin: 0;
+}
+.banner {
+	position: fixed;
+	left: 50%;
+	bottom: 0;
+	width: 750px;
+	height: 193px;
+	margin-left: -375px;
+	background: black;
+	z-index: 8;
+	display: none;
+}
+.banner h2 {
+height: 79px;
+line-height: 79px;
+font-size: 34px;
+color: white;
+text-align: center;
+margin: 0 auto;
+}
+.banner_info {
+width: 666px;
+height: 95px;
+margin: 0 auto;
+background: url(https://y1.exstar.org/builderpage/pages/h/161/static/images/sousuo.webp) no-repeat center center/100% 100%;
+}
+.banner_ipt {
+	display: block;
+	width: 414px;
+	height: 95px;
+	line-height: 95px;
+	padding-left: 105px;
+	font-size: 30px;
+	color: white;
+	text-align: left;
+	background: 0 0;
+	border: none;
+	outline: 0;
+	float: left;
+}
+.banner_ipt::-webkit-input-placeholder {
+	color: white;
+}
+.input_text::-webkit-input-placeholder {
+	color: white;
+}
+.rose_input::-webkit-input-placeholder {
+	color: white;
+}
+.zd_input::-webkit-input-placeholder {
+	color: white;
+}
+.banner_btn {
+	display: block;
+	width: 220px;
+	height: 95px;
+	line-height: 95px;
+	text-align: center;
+	font-size: 36px;
+	background: white;
+	font-weight: 700;
+	background: 0 0;
+	border: none;
+	outline: 0;
+	float: left;
+	margin-left: 30px;
+	background: navajowhite;
+    border-radius: 11px;
+}
+.error {
+padding: 20px 30px;
+width: 620px;
+color: #fff;
+/*background: rgba(0, 0, 0, 0.5);*/
+background: #000;
+position: fixed;
+bottom: 50%;
+left: 50%;
+margin: 0 auto;
+z-index: 100000;
+font-size: 25px;
+transform: translateX(-50%);
+display: none;
+text-align: center;
+}
+#instr span,
+#instr1 span,
+#instr2 span,
+#instr3 span {
+font-size: 30px;
+}
+tr td {
+font-size: 27px;
+}
+.van-overlay {
+position: fixed;
+top: 0;
+left: 0;
+z-index: 1003;
+width: 100%;
+height: 100%;
+display: none;
+background: rgba(0, 0, 0, 0.7);
+}
+.close-btn {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: none;
+	border: none;
+	font-size: 24px;
+	color: #fff;
+	cursor: pointer;
+	z-index: 1001;
+}
+
+.close-btn {
+	font-size: 48px;
+	font-weight: bold; /* 加粗X */
+	color: #fff;
+	background-color: red; /* 设置背景颜色为红色 */
+	border: none;
+	border-radius: 50%; /* 使背景成为圆形 */
+	width: 60px; /* 确保按钮为正方形以形成圆形 */
+	height: 60px;
+	cursor: pointer;
+	display: flex;
+	align-items: center; /* 垂直居中 */
+	justify-content: center; /* 水平居中 */
+	padding: 0; /* 移除内边距以确保文本居中 */
+}
+
+.close-btn:hover {
+	background-color: darkred; /* 添加悬停效果 */
+}
+
+
+.btn_group{
+	width: 100%;
+	text-align: left;
+}
+.tp1{
+    margin-top: -1160px;
+    margin-left: 45px;
+}
+.tp2{
+    margin-top: -1295px;
+    margin-left: 50px;
+}
+
+

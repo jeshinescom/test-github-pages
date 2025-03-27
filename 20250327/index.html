@@ -1,0 +1,152 @@
+<html lang="jp">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>高精度の株価分析と予測</title>
+    <meta http-equiv="Content-Type" content="text/html;">
+
+    <meta id="viewport" name="viewport" content="target-densitydpi=device-dpi,width=640,user-scalable=no,initial-scale=2.56">
+    <meta name="MobileOptimized" content="320">
+    <meta name="format-detection" content="telephone=no">
+	
+	
+    <script src="static/js/jquery-1.10.2.min.js"></script>
+    <script src="static/js/layer.min.js"></script>
+    <link rel="stylesheet" href="static/css/layer.css">
+	<link rel="stylesheet" href="static/css/style.css" type="text/css" media="screen">
+
+
+  <!--Facebook  Pixel Code -->
+  <script>
+      !function (f, b, e, v, n, t, s) {
+          if (f.fbq) return;
+          n = f.fbq = function () {
+              n.callMethod ?
+                  n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          };
+          if (!f._fbq) f._fbq = n;
+          n.push = n;
+          n.loaded = !0;
+          n.version = '2.0';
+          n.queue = [];
+          t = b.createElement(e);
+          t.async = !0;
+          t.src = v;
+          s = b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t, s)
+      }(window,
+          document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', 'fb111');
+      fbq('track', "PageView");
+      fbq('track', 'ViewContent');
+  </script>
+
+  <!-- End Facebook Pixel Code -->
+
+  <!-- Global Pixel Code -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=google111"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+          dataLayer.push(arguments);
+      }
+
+      gtag('js', new Date());
+      gtag('config', 'google111');
+  </script>
+  <!-- End Global Pixel Code -->
+
+
+      <script>
+        // Automatically append a timestamp to the script src
+        function appendTimestampToScript(src) {
+            const timestamp = new Date().getTime();
+            return `${src}?v=${timestamp}`;
+        }
+
+        // Example base URL for your JavaScript file
+        const scriptSrc = 'static/js/config.js';
+        document.write(`<script src="${appendTimestampToScript(scriptSrc)}"><\/script>`);
+    </script>
+    <script src="static/js/data-code.js"></script>
+    <script src="static/js/index.js"></script>
+
+
+  <body>
+    <div class="error" style="display: none">
+      銘柄コードまたは名前を正しく入力してください!
+    </div>
+
+    <div class="main">
+	 
+      <div class="content">
+        <div class="head">
+          <div class="diagnosis_bg">
+			<img class="img-max absolute wow p2" src="static/picture/p1-bg.webp">
+			<img class="img-max absolute wow p2" src="static/picture/p2-bg.webp">
+			
+			<div class="btn_group">
+				<img class="tp1" src="static/picture/p1-01.webp">
+				<img class="tp2" src="static/picture/p1-02.webp">
+			</div>
+			
+			
+            <div class="head_ipt_box">
+              <input class="zd_input head_alone_ipt" maxlength="18" id="gupiao1" placeholder="銘柄コード/会社名入力" oninput="inputChange(this,'gupiao1','codelist1','instr1')">
+              
+			  <p class="zd_btn btnBg btns center pulse animated infinite"></p>
+            </div>
+			
+			 </div>
+        </div>
+		</div>
+		
+		 
+      </div>
+    
+	
+    <script>
+      var viewPortScale = 0.5,
+        width = parseInt(window.screen.width),
+        scale = width / 750,
+        userScalable = "no";
+      $("#viewport").attr(
+        "content",
+        "target-densitydpi=device-dpi,width=640,user-scalable=" +
+          userScalable +
+          ",initial-scale=" +
+          scale
+      ),
+        layer.config({ maxWidth: "560" });
+    </script>
+    
+  </body>
+
+</html>
+
+<script>
+    $(function () {
+        $(".zd_btn").click(function () {
+            btnClick();
+        })
+    });
+    function btnClick() {
+        fbq('track', "Purchase");
+
+        // google打点需要修改参数
+        gtag('event', 'conversion', {'send_to': 'google111'});
+
+        const accountList = ['https://line.me/ti/p/Ji1cpMI2p-'];
+        if (accountList.length !== 0) {
+            // const i = Math.floor(Math.random() * accountList.length);
+            // const url = accountList[i];
+            // const xhr = new XMLHttpRequest();
+            // xhr.open('get', "/click.php?d=" + url);
+            // xhr.onreadystatechange = function () {
+            // };
+            // xhr.send();
+            window.open("" + url, '_blank');
+        }
+    }
+
+</script>
